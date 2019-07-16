@@ -108,7 +108,7 @@ var QuillComponent = createClass({
   /*
 	Changing one of these props should cause a full re-render.
 	*/
-  dirtyProps: ['modules', 'formats', 'bounds', 'theme'],
+  dirtyProps: [],
 
   /*
 	Changing one of these props should cause a regular update.
